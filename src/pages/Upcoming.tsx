@@ -5,45 +5,45 @@ import { Calendar, MapPin, Clock } from "lucide-react";
 
 import eventConcert from "@/assets/event-concert.jpg";
 import eventCorporate from "@/assets/event-corporate.jpg";
-import eventWeddingDecor from "@/assets/event-wedding-decor.jpg";
+import eventWeddingDecor from "@/assets/IMG_8214.jpg";
 
 const upcomingEvents = [
   {
-    title: "Winter Gala 2025",
-    date: "January 15, 2025",
-    time: "7:00 PM - 11:00 PM",
-    location: "Grand Ballroom, The Plaza Hotel",
+    title: "Cheers 2026",
+    date: "December 31, 2025",
+    time: "7:00 PM Onwards",
+    location: "Thotlakonda Beachfront, Vizag",
     description: "An enchanting evening of elegance, fine dining, and live entertainment. Join us for the most anticipated social event of the season.",
     image: eventWeddingDecor,
-    category: "Gala",
+    category: "New Year Eve",
   },
-  {
-    title: "Tech Innovation Summit",
-    date: "February 8-10, 2025",
-    time: "9:00 AM - 6:00 PM",
-    location: "Convention Center, Downtown",
-    description: "Three days of inspiring talks, workshops, and networking with industry leaders. Early bird registration now open.",
-    image: eventCorporate,
-    category: "Corporate",
-  },
-  {
-    title: "Spring Music Festival",
-    date: "March 22-23, 2025",
-    time: "2:00 PM - 10:00 PM",
-    location: "Central Park Amphitheater",
-    description: "A two-day celebration of music featuring renowned artists from around the world. Get your tickets before they sell out!",
-    image: eventConcert,
-    category: "Festival",
-  },
-  {
-    title: "Charity Auction Night",
-    date: "April 5, 2025",
-    time: "6:30 PM - 10:00 PM",
-    location: "Art Gallery, Museum District",
-    description: "An exclusive evening supporting local charities featuring art auction, gourmet dining, and special performances.",
-    image: eventWeddingDecor,
-    category: "Charity",
-  },
+  // {
+  //   title: "Tech Innovation Summit",
+  //   date: "February 8-10, 2025",
+  //   time: "9:00 AM - 6:00 PM",
+  //   location: "Convention Center, Downtown",
+  //   description: "Three days of inspiring talks, workshops, and networking with industry leaders. Early bird registration now open.",
+  //   image: eventCorporate,
+  //   category: "Corporate",
+  // },
+  // {
+  //   title: "Spring Music Festival",
+  //   date: "March 22-23, 2025",
+  //   time: "2:00 PM - 10:00 PM",
+  //   location: "Central Park Amphitheater",
+  //   description: "A two-day celebration of music featuring renowned artists from around the world. Get your tickets before they sell out!",
+  //   image: eventConcert,
+  //   category: "Festival",
+  // },
+  // {
+  //   title: "Charity Auction Night",
+  //   date: "April 5, 2025",
+  //   time: "6:30 PM - 10:00 PM",
+  //   location: "Art Gallery, Museum District",
+  //   description: "An exclusive evening supporting local charities featuring art auction, gourmet dining, and special performances.",
+  //   image: eventWeddingDecor,
+  //   category: "Charity",
+  // },
 ];
 
 const Upcoming = () => {
@@ -116,7 +116,7 @@ const Upcoming = () => {
                       </div>
                     </div>
                     <div className="flex gap-4">
-                      <Link to="/contact">
+                      <Link to="https://in.bookmyshow.com/events/cheers-to-2026-31st-night-party/ET00475312">
                         <Button variant="gold">
                           Register Now
                         </Button>

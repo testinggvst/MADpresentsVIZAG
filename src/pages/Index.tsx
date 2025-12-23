@@ -69,7 +69,7 @@ const testimonials = [
   {
     name: "Sarah Mitchell",
     role: "Bride, Johnson Wedding",
-    content: "Elegance Events made our wedding day absolutely perfect. Every detail was handled with such care and professionalism. I couldn't have asked for a better team.",
+    content: "MAD Presents Vizag made our wedding day absolutely perfect. Every detail was handled with such care and professionalism. I couldn't have asked for a better team.",
     rating: 5,
   },
   {
@@ -81,14 +81,14 @@ const testimonials = [
   {
     name: "Amanda Rodriguez",
     role: "Event Director, MusicFest",
-    content: "Working with Elegance Events on our festival was a game-changer. Their expertise in large-scale events and vendor coordination is unmatched.",
+    content: "Working with MAD Presents Vizag on our festival was a game-changer. Their expertise in large-scale events and vendor coordination is unmatched.",
     rating: 5,
   },
 ];
 
 const stats = [
-  { number: "500+", label: "Events Completed" },
-  { number: "10+", label: "Years Experience" },
+  { number: "2+", label: "Events Completed" },
+  { number: "3+", label: "Years Experience" },
   { number: "50+", label: "Team Members" },
   { number: "98%", label: "Client Satisfaction" },
 ];

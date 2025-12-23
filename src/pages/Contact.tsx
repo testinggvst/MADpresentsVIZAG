@@ -12,19 +12,19 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    content: "+1 (234) 567-890",
-    link: "tel:+1234567890",
+    content: "+91 70954 16630",
+    link: "tel:+917095416630",
   },
   {
     icon: Mail,
     title: "Email",
-    content: "hello@eleganceevents.com",
-    link: "mailto:hello@eleganceevents.com",
+    content: "vbstanujmaripi@gmail.com",
+    link: "mailto:vbstanujmaripi@gmail.com",
   },
   {
     icon: MapPin,
     title: "Address",
-    content: "123 Event Street, Suite 100\nNew York, NY 10001",
+    content: "Address 1-5-13, Akkireddipalem, BHEL post, Gajuwaka ,VISAKHAPATNAM 530012",
     link: "https://maps.google.com",
   },
   {
@@ -124,7 +124,7 @@ const Contact = () => {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      placeholder="John Doe"
+                      placeholder="Name Please"
                       className="bg-card"
                     />
                   </div>
@@ -139,7 +139,7 @@ const Contact = () => {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      placeholder="john@example.com"
+                      placeholder="xyz@gmail.com"
                       className="bg-card"
                     />
                   </div>
@@ -155,7 +155,7 @@ const Contact = () => {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="+1 (234) 567-890"
+                      placeholder="+91 1234567890"
                       className="bg-card"
                     />
                   </div>

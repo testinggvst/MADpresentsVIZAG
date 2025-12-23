@@ -4,27 +4,27 @@ import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 
 import heroImage from "@/assets/hero-wedding.jpg";
-import eventCorporate from "@/assets/event-corporate.jpg";
+import eventCorporate from "@/assets/Holi.jpeg";
 import eventConcert from "@/assets/event-concert.jpg";
 import eventBirthday from "@/assets/event-birthday.jpg";
-import eventWeddingDecor from "@/assets/event-wedding-decor.jpg";
+import eventWeddingDecor from "@/assets/Holi.jpeg";
 import serviceSoundLighting from "@/assets/service-sound-lighting.jpg";
 
-const categories = ["All", "Weddings", "Corporate", "Concerts", "Celebrations", "Decor"];
+const categories = ["All", "New Year Eve", "Beach Festival"];
 
 const galleryImages = [
-  { src: heroImage, category: "Weddings", title: "Elegant Reception Setup" },
-  { src: eventCorporate, category: "Corporate", title: "Tech Summit Stage" },
-  { src: eventConcert, category: "Concerts", title: "Summer Festival" },
-  { src: eventBirthday, category: "Celebrations", title: "Birthday Decor" },
-  { src: eventWeddingDecor, category: "Weddings", title: "Wedding Mandap" },
-  { src: serviceSoundLighting, category: "Decor", title: "Stage Production" },
-  { src: heroImage, category: "Weddings", title: "Candlelit Dinner" },
-  { src: eventCorporate, category: "Corporate", title: "Conference Hall" },
-  { src: eventConcert, category: "Concerts", title: "Live Performance" },
-  { src: eventBirthday, category: "Celebrations", title: "Party Setup" },
-  { src: eventWeddingDecor, category: "Decor", title: "Floral Arrangement" },
-  { src: serviceSoundLighting, category: "Corporate", title: "Audio Visual" },
+  { src: heroImage, category: "New Year Eve", title: "Elegant New Year Night Celebration's Setup" },
+  { src: eventCorporate, category: "Beach Festival", title: "Holi Joyness on the Beach Festival" },
+  // { src: eventConcert, category: "Concerts", title: "Summer Festival" },
+  // { src: eventBirthday, category: "Celebrations", title: "Birthday Decor" },
+  // { src: eventWeddingDecor, category: "Weddings", title: "Wedding Mandap" },
+  // { src: serviceSoundLighting, category: "Decor", title: "Stage Production" },
+  // { src: heroImage, category: "Weddings", title: "Candlelit Dinner" },
+  // { src: eventCorporate, category: "Corporate", title: "Conference Hall" },
+  // { src: eventConcert, category: "Concerts", title: "Live Performance" },
+  // { src: eventBirthday, category: "Celebrations", title: "Party Setup" },
+  // { src: eventWeddingDecor, category: "Decor", title: "Floral Arrangement" },
+  // { src: serviceSoundLighting, category: "Corporate", title: "Audio Visual" },
 ];
 
 const Gallery = () => {

@@ -4,68 +4,68 @@ import EventCard from "@/components/events/EventCard";
 import { Button } from "@/components/ui/button";
 
 import heroImage from "@/assets/hero-wedding.jpg";
-import eventCorporate from "@/assets/event-corporate.jpg";
-import eventConcert from "@/assets/event-concert.jpg";
+import eventCorporate from "@/assets/Holi.jpeg";
+import eventConcert from "@/assets/Holi.jpeg";
 import eventBirthday from "@/assets/event-birthday.jpg";
-import eventWeddingDecor from "@/assets/event-wedding-decor.jpg";
+import eventWeddingDecor from "@/assets/IMG_8214.jpg";
 
-const categories = ["All", "Wedding", "Corporate", "Concert", "Birthday", "Private"];
+const categories = ["All", "New Year Eve","Beach Festival"];
 
 const events = [
   {
-    title: "Johnson & Smith Wedding",
-    type: "Wedding",
-    description: "An elegant outdoor ceremony with 300 guests, featuring custom floral arrangements and live orchestra performance.",
+    title: "Cheers 2024 ",
+    type: "New Year Eve",
+    description: "An elegant outdoor night celebrating love with live music, gourmet dining, and stunning decor.",
     image: heroImage,
   },
   {
-    title: "TechCorp Annual Summit 2024",
-    type: "Corporate",
-    description: "A three-day corporate event with keynote speakers, networking sessions, and a spectacular gala dinner.",
+    title: "Holi Utsav",
+    type: "Beach Festival",
+    description: "A holi celebration on the beach with vibrant colors, music, dance, and festive food stalls.",
     image: eventCorporate,
-  },
-  {
-    title: "Summer Music Festival",
-    type: "Concert",
-    description: "A two-day outdoor music festival featuring 20+ artists and 10,000 enthusiastic attendees.",
-    image: eventConcert,
-  },
-  {
-    title: "Emma's Sweet 16",
-    type: "Birthday",
-    description: "A magical celebration with custom decorations, live entertainment, and unforgettable moments.",
-    image: eventBirthday,
-  },
-  {
-    title: "Royal Indian Wedding",
-    type: "Wedding",
-    description: "A grand traditional wedding celebration spanning three days with 500+ guests and exquisite decor.",
-    image: eventWeddingDecor,
-  },
-  {
-    title: "Innovation Conference 2024",
-    type: "Corporate",
-    description: "An inspiring conference featuring industry leaders, workshops, and breakthrough product launches.",
-    image: eventCorporate,
-  },
-  {
-    title: "Rock the Night Festival",
-    type: "Concert",
-    description: "A high-energy rock concert featuring legendary bands and state-of-the-art production.",
-    image: eventConcert,
-  },
-  {
-    title: "Golden Anniversary Celebration",
-    type: "Private",
-    description: "An intimate 50th anniversary celebration honoring five decades of love and togetherness.",
-    image: heroImage,
-  },
-  {
-    title: "Garden Wedding Reception",
-    type: "Wedding",
-    description: "A romantic garden wedding with fairy lights, custom florals, and a dreamy atmosphere.",
-    image: eventWeddingDecor,
-  },
+  }
+  // {
+  //   title: "Summer Music Festival",
+  //   type: "Concert",
+  //   description: "A two-day outdoor music festival featuring 20+ artists and 10,000 enthusiastic attendees.",
+  //   image: eventConcert,
+  // },
+  // {
+  //   title: "Emma's Sweet 16",
+  //   type: "Birthday",
+  //   description: "A magical celebration with custom decorations, live entertainment, and unforgettable moments.",
+  //   image: eventBirthday,
+  // },
+  // {
+  //   title: "Royal Indian Wedding",
+  //   type: "Wedding",
+  //   description: "A grand traditional wedding celebration spanning three days with 500+ guests and exquisite decor.",
+  //   image: eventWeddingDecor,
+  // },
+  // {
+  //   title: "Innovation Conference 2024",
+  //   type: "Corporate",
+  //   description: "An inspiring conference featuring industry leaders, workshops, and breakthrough product launches.",
+  //   image: eventCorporate,
+  // },
+  // {
+  //   title: "Rock the Night Festival",
+  //   type: "Concert",
+  //   description: "A high-energy rock concert featuring legendary bands and state-of-the-art production.",
+  //   image: eventConcert,
+  // },
+  // {
+  //   title: "Golden Anniversary Celebration",
+  //   type: "Private",
+  //   description: "An intimate 50th anniversary celebration honoring five decades of love and togetherness.",
+  //   image: heroImage,
+  // },
+  // {
+  //   title: "Garden Wedding Reception",
+  //   type: "Wedding",
+  //   description: "A romantic garden wedding with fairy lights, custom florals, and a dreamy atmosphere.",
+  //   image: eventWeddingDecor,
+  // },
 ];
 
 const Events = () => {

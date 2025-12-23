@@ -9,25 +9,25 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <h3 className="font-display text-2xl font-bold">
-              Elegance<span className="text-accent">Events</span>
+              MAD Presents<span className="text-accent"> Vizag</span>
             </h3>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
               Creating unforgettable moments and extraordinary experiences for over a decade. 
               Your vision, our expertise.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="text-primary-foreground/70 hover:text-accent transition-colors">
+              {/* <a href="#" className="text-primary-foreground/70 hover:text-accent transition-colors">
                 <Facebook size={20} />
-              </a>
-              <a href="#" className="text-primary-foreground/70 hover:text-accent transition-colors">
+              </a> */}
+              <a href="https://www.instagram.com/mad_presents_vizag?igsh=YWJiY2dpMHl6MXZk" className="text-primary-foreground/70 hover:text-accent transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-primary-foreground/70 hover:text-accent transition-colors">
+              {/* <a href="#" className="text-primary-foreground/70 hover:text-accent transition-colors">
                 <Twitter size={20} />
-              </a>
-              <a href="#" className="text-primary-foreground/70 hover:text-accent transition-colors">
+              </a> */}
+              {/* <a href="#" className="text-primary-foreground/70 hover:text-accent transition-colors">
                 <Youtube size={20} />
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -69,17 +69,17 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-display text-lg font-semibold text-accent">Contact Us</h4>
             <div className="flex flex-col gap-3 text-sm">
-              <a href="tel:+1234567890" className="flex items-center gap-3 text-primary-foreground/70 hover:text-accent transition-colors">
+              <a href="tel:+917095416630" className="flex items-center gap-3 text-primary-foreground/70 hover:text-accent transition-colors">
                 <Phone size={16} />
-                +1 (234) 567-890
+                +91 70954 16630
               </a>
-              <a href="mailto:hello@eleganceevents.com" className="flex items-center gap-3 text-primary-foreground/70 hover:text-accent transition-colors">
+              <a href="mailto:vbstanujmaripi@gmail.com" className="flex items-center gap-3 text-primary-foreground/70 hover:text-accent transition-colors">
                 <Mail size={16} />
-                hello@eleganceevents.com
+                vbstanujmaripi@gmail.com
               </a>
               <div className="flex items-start gap-3 text-primary-foreground/70">
                 <MapPin size={16} className="mt-1 shrink-0" />
-                <span>123 Event Street, Suite 100<br />New York, NY 10001</span>
+                <span>Address 1-5-13, Akkireddipalem, BHEL post, Gajuwaka<br />VISAKHAPATNAM 530012</span>
               </div>
             </div>
           </div>
@@ -88,7 +88,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-primary-foreground/60 text-sm">
-              © {new Date().getFullYear()} Elegance Events. All rights reserved.
+              © {new Date().getFullYear()} MAD Presents Vizag. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm text-primary-foreground/60">
               <a href="#" className="hover:text-accent transition-colors">Privacy Policy</a>

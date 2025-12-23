@@ -29,25 +29,25 @@ const values = [
 
 const team = [
   {
-    name: "Alexandra Sterling",
+    name: "Tanuj Vaitla",
     role: "Founder & Creative Director",
-    bio: "With 15+ years in luxury event planning, Alexandra brings unparalleled vision and expertise to every project.",
+    bio: "With 10+ years in luxury event planning, Alexandra brings unparalleled vision and expertise to every project.",
   },
-  {
-    name: "Marcus Chen",
-    role: "Head of Operations",
-    bio: "Marcus ensures seamless logistics and coordination, managing our team of 50+ professionals.",
-  },
-  {
-    name: "Sophia Rodriguez",
-    role: "Lead Event Designer",
-    bio: "Award-winning designer who transforms spaces into breathtaking environments.",
-  },
-  {
-    name: "David Thompson",
-    role: "Technical Director",
-    bio: "Expert in sound, lighting, and AV production for events of any scale.",
-  },
+  // {
+  //   name: "Marcus Chen",
+  //   role: "Head of Operations",
+  //   bio: "Marcus ensures seamless logistics and coordination, managing our team of 50+ professionals.",
+  // },
+  // {
+  //   name: "Sophia Rodriguez",
+  //   role: "Lead Event Designer",
+  //   bio: "Award-winning designer who transforms spaces into breathtaking environments.",
+  // },
+  // {
+  //   name: "David Thompson",
+  //   role: "Technical Director",
+  //   bio: "Expert in sound, lighting, and AV production for events of any scale.",
+  // },
 ];
 
 const About = () => {
@@ -66,10 +66,10 @@ const About = () => {
             Our Story
           </span>
           <h1 className="font-display text-4xl md:text-6xl font-bold text-background mb-6 animate-fade-up animation-delay-100">
-            About Elegance Events
+            About MAD Presents Vizag
           </h1>
           <p className="text-background/90 text-lg md:text-xl max-w-3xl mx-auto animate-fade-up animation-delay-200">
-            For over a decade, we've been transforming dreams into reality, 
+            For over a years, we've been transforming dreams into reality, 
             creating unforgettable moments that last a lifetime.
           </p>
         </div>
@@ -84,16 +84,16 @@ const About = () => {
                 Who We Are
               </span>
               <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
-                Crafting Memories Since 2013
+                Crafting Memories Since 2024
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Elegance Events was born from a simple belief: every celebration deserves to be extraordinary. 
+                  MAD Presents Vizag was born from a simple belief: every celebration deserves to be extraordinary. 
                   What started as a small team with big dreams has grown into one of the region's most trusted 
                   event management companies.
                 </p>
                 <p>
-                  Over the years, we've had the privilege of orchestrating over 500 events – from intimate 
+                  Over the years, we've had the privilege of orchestrating over events – from intimate 
                   garden weddings to large-scale corporate summits and music festivals. Each event has taught 
                   us something new and reinforced our commitment to excellence.
                 </p>
@@ -111,7 +111,8 @@ const About = () => {
                   className="rounded-lg shadow-2xl"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-accent text-primary p-6 rounded-lg shadow-xl">
-                  <div className="font-display text-4xl font-bold">10+</div>
+                  <div className="font-display text-4xl font-bold">2+</div>
+
                   <div className="text-sm font-medium">Years of Excellence</div>
                 </div>
               </div>
@@ -185,7 +186,8 @@ const About = () => {
             light
           />
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="flex justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl">
             {team.map((member, index) => (
               <div
                 key={index}
@@ -204,6 +206,7 @@ const About = () => {
                 <p className="text-background/70 text-sm">{member.bio}</p>
               </div>
             ))}
+          </div>
           </div>
         </div>
       </section>
