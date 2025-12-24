@@ -188,7 +188,7 @@ const Index = () => {
       </section>
 
       {/* Featured Events Section */}
-      <section className="section-padding bg-muted">
+      {/* <section className="section-padding bg-muted">
         <div className="container-custom">
           <SectionHeading
             subtitle="Our Portfolio"
@@ -216,10 +216,10 @@ const Index = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Testimonials Section */}
-      <section className="section-padding bg-background">
+      {/* <section className="section-padding bg-background">
         <div className="container-custom">
           <SectionHeading
             subtitle="Testimonials"
@@ -239,7 +239,7 @@ const Index = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-24 bg-primary relative overflow-hidden">
