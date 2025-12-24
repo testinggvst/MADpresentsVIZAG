@@ -2,7 +2,8 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import { Award, Users, Target, Heart } from "lucide-react";
 
 import heroImage from "@/assets/hero-wedding.jpg";
-import eventCorporate from "@/assets/event-corporate.jpg";
+import eventCorporate from "@/assets/event-corporate.jpg"; 
+import profile from "@/assets/Profile.png";
 
 const values = [
   {
@@ -29,9 +30,10 @@ const values = [
 
 const team = [
   {
-    name: "Tanuj Vaitla",
+    name: "Maripi Tanuj",
     role: "Founder & Creative Director",
     bio: "With 10+ years in luxury event planning, Alexandra brings unparalleled vision and expertise to every project.",
+    image: profile,
   },
   // {
   //   name: "Marcus Chen",
@@ -194,11 +196,19 @@ const About = () => {
                 className="bg-primary-foreground/10 backdrop-blur rounded-lg p-6 text-center animate-fade-up"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                <div className="w-24 h-24 rounded-full bg-accent/20 mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-accent font-display text-2xl font-bold">
-                    {member.name.split(' ').map(n => n[0]).join('')}
-                  </span>
-                </div>
+                {member.image ? (
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+                  />
+                ) : (
+                  <div className="w-24 h-24 rounded-full bg-accent/20 mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-accent font-display text-2xl font-bold">
+                      {member.name.split(' ').map(n => n[0]).join('')}
+                    </span>
+                  </div>
+                )}
                 <h3 className="font-display text-lg font-bold text-background mb-1">
                   {member.name}
                 </h3>
