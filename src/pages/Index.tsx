@@ -87,7 +87,7 @@ const testimonials = [
 ];
 
 const stats = [
-  { number: "2+", label: "Events Completed" },
+  { number: "12+", label: "Events Completed" },
   { number: "3+", label: "Years Experience" },
   { number: "50+", label: "Team Members" },
   { number: "98%", label: "Client Satisfaction" },
