@@ -5,7 +5,7 @@ import { Calendar, MapPin, Clock } from "lucide-react";
 
 import eventConcert from "@/assets/event-concert.jpg";
 import eventCorporate from "@/assets/event-corporate.jpg";
-import eventWeddingDecor from "@/assets/IMG_8214.jpg";
+import eventWeddingDecor from "@/assets/IMG_8214.JPG";
 
 const upcomingEvents = [
   {
