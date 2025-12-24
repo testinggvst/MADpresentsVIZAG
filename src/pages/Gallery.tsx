@@ -6,6 +6,8 @@ import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import heroImage from "@/assets/hero-wedding.jpg";
 import eventCorporate from "@/assets/Holi.jpeg";
 import eventConcert from "@/assets/event-concert.jpg";
+import event1 from "@/assets/event 1.jpeg";
+import event2 from "@/assets/event 2.jpeg";
 import eventBirthday from "@/assets/event-birthday.jpg";
 import eventWeddingDecor from "@/assets/Holi.jpeg";
 import serviceSoundLighting from "@/assets/service-sound-lighting.jpg";
@@ -15,7 +17,8 @@ const categories = ["All", "New Year Eve", "Beach Festival"];
 const galleryImages = [
   { src: heroImage, category: "New Year Eve", title: "Elegant New Year Night Celebration's Setup" },
   { src: eventCorporate, category: "Beach Festival", title: "Holi Joyness on the Beach Festival" },
-  // { src: eventConcert, category: "Concerts", title: "Summer Festival" },
+  { src: event1, category: "New Year Eve", title: "Elegant New Year Night Celebration's Setup" },
+  { src: event2, category: "New Year Eve", title: "Elegant New Year Night Celebration's Setup" },
   // { src: eventBirthday, category: "Celebrations", title: "Birthday Decor" },
   // { src: eventWeddingDecor, category: "Weddings", title: "Wedding Mandap" },
   // { src: serviceSoundLighting, category: "Decor", title: "Stage Production" },
